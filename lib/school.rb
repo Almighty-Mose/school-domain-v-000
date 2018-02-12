@@ -24,12 +24,6 @@ class School
   end
   
   def sort
-    @roster.each |grade| do
-      grade.sort!
-    end
-    @roster
+    @roster.each{|grade| grade.sort! return @roster}
   end
-    
-    
-    
 end
