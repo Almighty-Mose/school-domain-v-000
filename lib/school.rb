@@ -23,5 +23,5 @@ class School
     @roster[g]
   end
   
-  
+  def sort()
 end
